@@ -7,7 +7,7 @@
     <meta name="keywords" content="corruption, corruption in Africa, solution to corruption">
     <meta name="author" content="Nicholas Otieno">
     <title>iReporter - login or sign up</title>
-    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
@@ -58,7 +58,20 @@
       <div class="contentContainer">
         <div class="contentContainerRightFloat">
           <div class="container">
-            
+            <h1>Create an account</h1>
+            <form method="post" action="" id="signup">
+                <label for="fname">First Name</label><br>
+                <input type="text" name="fname" id="fname" class="signupInput" tabindex="1"><br>
+                <label for="sname">Surname Name</label><br>
+                <input type="text" name="sname" id="sname" class="signupInput" tabindex="2"><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" class="signupInput" tabindex="3"><br>
+                <label for="phone">Phone</label><br>
+                <input type="phone" name="phone" id="phone" class="signupInput" tabindex="4"><br>
+                <label for="pass">Password</label><br>
+                <input type="password" name="pass" id="pass" class="signupInput" tabindex="5"><br>
+                <button type="submit">Sign Up</button>
+              </form>
           </div>
         </div>
         <div class="contentContainerLeftFloat">

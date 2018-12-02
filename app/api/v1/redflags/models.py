@@ -56,4 +56,3 @@ class IncidentSchema(Schema):
     images = fields.Str()
     videos = fields.Str()
     comment = fields.Str(required=True, help=("Incident comment"))
-

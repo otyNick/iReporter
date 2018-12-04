@@ -2,9 +2,6 @@ from flask import Blueprint
 from flask_restful import Api, Resource 
 
 #local import
-
-from app.api.v1.redflags.views import MyIncident, MyIncidents
-
 #from app.api.v1.redflags.models import MyIncident, MyIncidents
 from app.api.v1.redflags.views import MyIncidents, MyIncident
 

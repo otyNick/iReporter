@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/otyNick/iReporter.svg?branch=master)](https://travis-ci.org/otyNick/iReporter)
+[![codecov](https://codecov.io/gh/otyNick/iReporter/branch/develop/graph/badge.svg)](https://codecov.io/gh/otyNick/iReporter)
 
 ## Project: iReporter
 
